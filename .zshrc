@@ -21,7 +21,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 alias c=code
 alias py=python3
-alias vim=nvim
+alias v=nvim
 alias lazy="NVIM_APPNAME=LazyVim nvim"
 alias kick="NVIM_APPNAME=kickstart nvim"
 alias chad="NVIM_APPNAME=NvChad nvim"
