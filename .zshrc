@@ -178,3 +178,8 @@ export NVM_DIR="$HOME/.nvm"
 
 
 # eval "$(starship init zsh)"
+alias lg=lazygit
+export PATH="/Users/tacolegs2004/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/Users/tacolegs2004/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
+
+eval "$(zoxide init --cmd cd zsh)"
