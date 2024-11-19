@@ -4,5 +4,5 @@ DOTFILES=(.gitconfig .config .zshrc)
 
 for dotfile in $(echo ${DOTFILES[*]});
 do
-    cp ~/dotfiles/$(echo $dotfile) ~/$(echo $dotfile)
+    cp ~/github/dotfiles/$(echo $dotfile) ~/$(echo $dotfile)
 done
