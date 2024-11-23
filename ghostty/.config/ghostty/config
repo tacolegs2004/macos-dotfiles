@@ -1,7 +1,11 @@
 theme = catppuccin-mocha
 # theme = GruvboxDark
-# font-family = Meslo LGS Nerd Font Mono
 font-size = 16
-background-opacity = 0.9
+# font-family = CaskaydiaMono Nerd Font
+font-family = CaskaydiaCove Nerd Font
+background-opacity = 0.95
+# cursor-style = block
+macos-titlebar-style = transparent
+# resize-overlay-position = top
 # custom-shader = /home/chris/bloom.glsl
 #custom-shader = /home/chris/crt.glsl
