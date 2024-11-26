@@ -1,11 +1,18 @@
 theme = catppuccin-mocha
+
+# keybinds for navigating on macos using opt+arrows and cmd+arrows.
+keybind = cmd+right=text:\x05
+keybind = cmd+left=text:\x01
+keybind = alt+left=esc:b
+keybind = alt+right=esc:f
+
 # theme = GruvboxDark
 font-size = 16
 # font-family = CaskaydiaMono Nerd Font
 font-family = CaskaydiaCove Nerd Font
 # font-family = Monaspace Argon
-background-opacity = 0.95
-# cursor-style = block
+# background-opacity = 0.95
+cursor-style = block
 macos-titlebar-style = transparent
 # resize-overlay-position = top
 # custom-shader = /home/chris/bloom.glsl
