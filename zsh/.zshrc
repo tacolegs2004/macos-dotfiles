@@ -4,10 +4,6 @@ ZSH_THEME="robbyrussell"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
@@ -19,6 +15,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+alias ls="eza --icons=always"
 alias c=code
 alias py=python3
 alias v=nvim
@@ -28,6 +25,9 @@ alias chad="NVIM_APPNAME=NvChad nvim"
 alias astro="NVIM_APPNAME=AstroNvim nvim"
 alias ovi="NVIM_APPNAME=OviWrite nvim"
 alias icat="kitten icat"
+
+eval $(thefuck --alias)
+eval $(thefuck --alias fk)
 
 PATH="$PATH":"$HOME/.local/scripts/"
 
@@ -182,11 +182,17 @@ export NVM_DIR="$HOME/.nvm"
 
 
 
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 alias lg=lazygit
 export PATH="/Users/tacolegs2004/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/Users/tacolegs2004/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 
+# eval "$(oh-my-posh init zsh)"
+#
+# if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
+#   eval "$(oh-my-posh init zsh)"
+# fi
+#
 eval "$(zoxide init --cmd cd zsh)"
