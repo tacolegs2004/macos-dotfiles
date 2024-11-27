@@ -5,5 +5,7 @@ keybind = cmd+left=text:\x01
 keybind = alt+left=esc:b
 keybind = alt+right=esc:f
 
+cursor-style = block
+shell-integration-features = no-cursor
 font-size = 16
 font-family = CaskaydiaCove Nerd Font
