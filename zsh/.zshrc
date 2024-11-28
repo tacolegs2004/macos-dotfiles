@@ -16,6 +16,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 alias ls="eza --icons=always"
+alias lg=lazygit
 alias c=code
 alias py=python3
 alias v=nvim
@@ -182,8 +183,7 @@ export NVM_DIR="$HOME/.nvm"
 
 
 
-eval "$(starship init zsh)"
-alias lg=lazygit
+# eval "$(starship init zsh)"
 export PATH="/Users/tacolegs2004/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/Users/tacolegs2004/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 
