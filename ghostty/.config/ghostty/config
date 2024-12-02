@@ -1,4 +1,4 @@
-theme = tokyonight
+theme = catppuccin-mocha
 
 keybind = cmd+right=text:\x06
 keybind = cmd+left=text:\x01

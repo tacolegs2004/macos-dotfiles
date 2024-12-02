@@ -187,7 +187,7 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/Users/tacolegs2004/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/Users/tacolegs2004/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 
 # eval "$(oh-my-posh init zsh)"
 #
@@ -196,3 +196,7 @@ export PHP_INI_SCAN_DIR="/Users/tacolegs2004/.config/herd-lite/bin:$PHP_INI_SCAN
 # fi
 #
 eval "$(zoxide init --cmd cd zsh)"
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+export PATH=$PATH:$HOME/go/bin
