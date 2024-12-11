@@ -1,12 +1,15 @@
-theme = catppuccin-mocha
+theme = heeler
 
 keybind = cmd+right=text:\x06
 keybind = cmd+left=text:\x01
 keybind = alt+left=esc:b
 keybind = alt+right=esc:f
 
-background-opacity = 0.8
-background-blur-radius = 20
+macos-titlebar-style = tabs
+window-save-state = never
+
+window-padding-x = 16
+window-padding-y = 10
 
 cursor-style = block
 shell-integration-features = no-cursor

@@ -183,11 +183,10 @@ export NVM_DIR="$HOME/.nvm"
 
 
 
-# eval "$(starship init zsh)"
 export PATH="/Users/tacolegs2004/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/Users/tacolegs2004/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 
 # eval "$(oh-my-posh init zsh)"
 #
