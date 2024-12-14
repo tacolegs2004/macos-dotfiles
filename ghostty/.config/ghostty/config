@@ -1,11 +1,15 @@
-theme = heeler
+theme = catppuccin-mocha
+
+# custom-shader = shaders/starfield.glsl
+
+# background-opacity = 0.9
 
 keybind = cmd+right=text:\x06
 keybind = cmd+left=text:\x01
 keybind = alt+left=esc:b
 keybind = alt+right=esc:f
 
-macos-titlebar-style = tabs
+macos-titlebar-style = hidden
 window-save-state = never
 
 window-padding-x = 16

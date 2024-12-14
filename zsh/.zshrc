@@ -15,12 +15,15 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+export TERM=xterm
+
 alias ls="eza --icons=always"
 alias lg=lazygit
 alias c=code
 alias py=python3
 alias v=nvim
 alias lazy="NVIM_APPNAME=LazyVim nvim"
+alias bean="NVIM_APPNAME=neobean nvim"
 alias kick="NVIM_APPNAME=kickstart nvim"
 alias chad="NVIM_APPNAME=NvChad nvim"
 alias astro="NVIM_APPNAME=AstroNvim nvim"
@@ -33,7 +36,7 @@ eval $(thefuck --alias fk)
 PATH="$PATH":"$HOME/.local/scripts/"
 
 function nvims() {
-  items=("default" "kickstart" "LazyVim" "NvChad" "AstroNvim")
+  items=("default" "kickstart" "LazyVim" "NvChad" "AstroNvim", "neobean")
   config=$(printf "%s\n" "${items[@]}" | fzf --prompt=" Neovim Config  " --height=~50% --layout=reverse --border --exit-0)
   if [[ -z $config ]]; then
     echo "Nothing selected"
@@ -186,7 +189,7 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/Users/tacolegs2004/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/Users/tacolegs2004/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 
-# eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 
 # eval "$(oh-my-posh init zsh)"
 #
