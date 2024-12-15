@@ -1,4 +1,6 @@
-theme = catppuccin-mocha
+# theme = catppuccin-mocha
+# theme = gruvbox-material-taco
+theme = tokyonight
 
 # custom-shader = shaders/starfield.glsl
 
