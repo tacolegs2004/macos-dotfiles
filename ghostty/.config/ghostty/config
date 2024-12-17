@@ -1,8 +1,8 @@
 # theme = catppuccin-mocha
-# theme = gruvbox-material-taco
-theme = tokyonight
+theme = gruvbox-material-taco
+# theme = tokyonight
 
-# custom-shader = shaders/starfield.glsl
+custom-shader = shaders/bloom050.glsl
 
 # background-opacity = 0.9
 
@@ -11,7 +11,7 @@ keybind = cmd+left=text:\x01
 keybind = alt+left=esc:b
 keybind = alt+right=esc:f
 
-macos-titlebar-style = hidden
+# macos-titlebar-style = hidden
 window-save-state = never
 
 window-padding-x = 16
