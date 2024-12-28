@@ -16,8 +16,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 export TERM=xterm
+export EDITOR=nvim
 
-alias ls="eza --icons=always"
 alias lg=lazygit
 alias c=code
 alias py=python3
@@ -202,3 +202,6 @@ eval "$(zoxide init --cmd cd zsh)"
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 export PATH=$PATH:$HOME/go/bin
+
+alias ls="eza --icons=always"
+
