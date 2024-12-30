@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Blueish
+# Scheme Author: Ben Mayoras
+# Template Author: Bez Hermoso
+
+palette = 0=#182430
+palette = 1=#4ce587
+palette = 2=#c3e88d
+palette = 3=#82aaff
+palette = 4=#82aaff
+palette = 5=#ff84dd
+palette = 6=#5fd1ff
+palette = 7=#c8e1f8
+palette = 8=#616d78
+palette = 9=#4ce587
+palette = 10=#c3e88d
+palette = 11=#82aaff
+palette = 12=#82aaff
+palette = 13=#ff84dd
+palette = 14=#5fd1ff
+palette = 15=#8f98a0
+background = 182430
+foreground = c8e1f8
+cursor-color = c8e1f8 
+selection-background = 46290a
+selection-foreground = c8e1f8

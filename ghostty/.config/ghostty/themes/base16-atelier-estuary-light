@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Atelier Estuary Light
+# Scheme Author: Bram de Haan (http://atelierbramdehaan.nl)
+# Template Author: Bez Hermoso
+
+palette = 0=#f4f3ec
+palette = 1=#ba6236
+palette = 2=#7d9726
+palette = 3=#a5980d
+palette = 4=#36a166
+palette = 5=#5f9182
+palette = 6=#5b9d48
+palette = 7=#5f5e4e
+palette = 8=#878573
+palette = 9=#ba6236
+palette = 10=#7d9726
+palette = 11=#a5980d
+palette = 12=#36a166
+palette = 13=#5f9182
+palette = 14=#5b9d48
+palette = 15=#22221b
+background = f4f3ec
+foreground = 5f5e4e
+cursor-color = 5f5e4e 
+selection-background = 929181
+selection-foreground = 5f5e4e

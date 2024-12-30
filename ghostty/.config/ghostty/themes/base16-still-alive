@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Still Alive
+# Scheme Author: Derrick McKee (derrick.mckee@gmail.com)
+# Template Author: Bez Hermoso
+
+palette = 0=#f0f0f0
+palette = 1=#487830
+palette = 2=#5c5c6a
+palette = 3=#426395
+palette = 4=#001878
+palette = 5=#900000
+palette = 6=#2c3c57
+palette = 7=#d80000
+palette = 8=#f01818
+palette = 9=#487830
+palette = 10=#5c5c6a
+palette = 11=#426395
+palette = 12=#001878
+palette = 13=#900000
+palette = 14=#2c3c57
+palette = 15=#30a860
+background = f0f0f0
+foreground = d80000
+cursor-color = d80000 
+selection-background = fff018
+selection-foreground = d80000

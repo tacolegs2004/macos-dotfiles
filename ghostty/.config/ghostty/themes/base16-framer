@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Framer
+# Scheme Author: Framer (Maintained by Jesse Hoyos)
+# Template Author: Bez Hermoso
+
+palette = 0=#181818
+palette = 1=#fd886b
+palette = 2=#32ccdc
+palette = 3=#fecb6e
+palette = 4=#20bcfc
+palette = 5=#ba8cfc
+palette = 6=#acddfd
+palette = 7=#d0d0d0
+palette = 8=#747474
+palette = 9=#fd886b
+palette = 10=#32ccdc
+palette = 11=#fecb6e
+palette = 12=#20bcfc
+palette = 13=#ba8cfc
+palette = 14=#acddfd
+palette = 15=#eeeeee
+background = 181818
+foreground = d0d0d0
+cursor-color = d0d0d0 
+selection-background = 464646
+selection-foreground = d0d0d0

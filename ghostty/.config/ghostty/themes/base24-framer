@@ -1,0 +1,26 @@
+# Scheme System: base24
+# Scheme Name: Framer
+# Scheme Author: FredHappyface (https://github.com/fredHappyface)
+# Template Author: Bez Hermoso
+
+palette = 0=#111111
+palette = 1=#ff5555
+palette = 2=#98ec65
+palette = 3=#33bbff
+palette = 4=#00aaff
+palette = 5=#aa88ff
+palette = 6=#88ddff
+palette = 7=#a9a9a9
+palette = 8=#636363
+palette = 9=#ff5555
+palette = 10=#98ec65
+palette = 11=#33bbff
+palette = 12=#00aaff
+palette = 13=#aa88ff
+palette = 14=#88ddff
+palette = 15=#ffffff
+background = 111111
+foreground = a9a9a9
+cursor-color = a9a9a9 
+selection-background = 414141
+selection-foreground = a9a9a9

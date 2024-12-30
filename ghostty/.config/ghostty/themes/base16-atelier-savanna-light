@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Atelier Savanna Light
+# Scheme Author: Bram de Haan (http://atelierbramdehaan.nl)
+# Template Author: Bez Hermoso
+
+palette = 0=#ecf4ee
+palette = 1=#b16139
+palette = 2=#489963
+palette = 3=#a07e3b
+palette = 4=#478c90
+palette = 5=#55859b
+palette = 6=#1c9aa0
+palette = 7=#526057
+palette = 8=#78877d
+palette = 9=#b16139
+palette = 10=#489963
+palette = 11=#a07e3b
+palette = 12=#478c90
+palette = 13=#55859b
+palette = 14=#1c9aa0
+palette = 15=#171c19
+background = ecf4ee
+foreground = 526057
+cursor-color = 526057 
+selection-background = 87928a
+selection-foreground = 526057

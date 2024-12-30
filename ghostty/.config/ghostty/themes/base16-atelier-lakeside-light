@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Atelier Lakeside Light
+# Scheme Author: Bram de Haan (http://atelierbramdehaan.nl)
+# Template Author: Bez Hermoso
+
+palette = 0=#ebf8ff
+palette = 1=#d22d72
+palette = 2=#568c3b
+palette = 3=#8a8a0f
+palette = 4=#257fad
+palette = 5=#6b6bb8
+palette = 6=#2d8f6f
+palette = 7=#516d7b
+palette = 8=#7195a8
+palette = 9=#d22d72
+palette = 10=#568c3b
+palette = 11=#8a8a0f
+palette = 12=#257fad
+palette = 13=#6b6bb8
+palette = 14=#2d8f6f
+palette = 15=#161b1d
+background = ebf8ff
+foreground = 516d7b
+cursor-color = 516d7b 
+selection-background = 7ea2b4
+selection-foreground = 516d7b

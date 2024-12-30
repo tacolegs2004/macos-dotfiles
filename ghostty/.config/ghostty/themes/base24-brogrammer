@@ -1,0 +1,26 @@
+# Scheme System: base24
+# Scheme Name: Brogrammer
+# Scheme Author: FredHappyface (https://github.com/fredHappyface)
+# Template Author: Bez Hermoso
+
+palette = 0=#131313
+palette = 1=#f71118
+palette = 2=#2cc55d
+palette = 3=#0f80d5
+palette = 4=#2a84d2
+palette = 5=#4e59b7
+palette = 6=#0f80d5
+palette = 7=#c1c8d7
+palette = 8=#343d50
+palette = 9=#f71118
+palette = 10=#2cc55d
+palette = 11=#0f80d5
+palette = 12=#2a84d2
+palette = 13=#4e59b7
+palette = 14=#0f80d5
+palette = 15=#ffffff
+background = 131313
+foreground = c1c8d7
+cursor-color = c1c8d7 
+selection-background = 2a3141
+selection-foreground = c1c8d7

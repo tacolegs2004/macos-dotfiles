@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Moonlight
+# Scheme Author: Jeremy Swinarton (https://github.com/jswinarton)
+# Template Author: Bez Hermoso
+
+palette = 0=#212337
+palette = 1=#ff5370
+palette = 2=#2df4c0
+palette = 3=#ffc777
+palette = 4=#40ffff
+palette = 5=#b994f1
+palette = 6=#04d1f9
+palette = 7=#a3ace1
+palette = 8=#748cd6
+palette = 9=#ff5370
+palette = 10=#2df4c0
+palette = 11=#ffc777
+palette = 12=#40ffff
+palette = 13=#b994f1
+palette = 14=#04d1f9
+palette = 15=#ef43fa
+background = 212337
+foreground = a3ace1
+cursor-color = a3ace1 
+selection-background = 596399
+selection-foreground = a3ace1

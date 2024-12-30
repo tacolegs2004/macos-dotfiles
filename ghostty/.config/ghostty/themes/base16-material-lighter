@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Material Lighter
+# Scheme Author: Nate Peterson
+# Template Author: Bez Hermoso
+
+palette = 0=#fafafa
+palette = 1=#ff5370
+palette = 2=#91b859
+palette = 3=#ffb62c
+palette = 4=#6182b8
+palette = 5=#7c4dff
+palette = 6=#39adb5
+palette = 7=#80cbc4
+palette = 8=#ccd7da
+palette = 9=#ff5370
+palette = 10=#91b859
+palette = 11=#ffb62c
+palette = 12=#6182b8
+palette = 13=#7c4dff
+palette = 14=#39adb5
+palette = 15=#ffffff
+background = fafafa
+foreground = 80cbc4
+cursor-color = 80cbc4 
+selection-background = cceae7
+selection-foreground = 80cbc4

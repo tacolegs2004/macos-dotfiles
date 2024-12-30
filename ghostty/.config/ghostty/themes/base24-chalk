@@ -1,0 +1,26 @@
+# Scheme System: base24
+# Scheme Name: Chalk
+# Scheme Author: FredHappyface (https://github.com/fredHappyface)
+# Template Author: Bez Hermoso
+
+palette = 0=#151515
+palette = 1=#fa859c
+palette = 2=#a1bb54
+palette = 3=#ddb26f
+palette = 4=#5ab9ed
+palette = 5=#db8fea
+palette = 6=#10bcad
+palette = 7=#d0d0d0
+palette = 8=#505050
+palette = 9=#fa859c
+palette = 10=#a1bb54
+palette = 11=#ddb26f
+palette = 12=#5ab9ed
+palette = 13=#db8fea
+palette = 14=#10bcad
+palette = 15=#f5f5f5
+background = 151515
+foreground = d0d0d0
+cursor-color = d0d0d0 
+selection-background = 303030
+selection-foreground = d0d0d0

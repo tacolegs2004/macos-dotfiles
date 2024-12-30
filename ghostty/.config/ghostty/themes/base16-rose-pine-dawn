@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Rosé Pine Dawn
+# Scheme Author: Emilia Dunfelt &lt;edun@dunfelt.se&gt;
+# Template Author: Bez Hermoso
+
+palette = 0=#faf4ed
+palette = 1=#b4637a
+palette = 2=#286983
+palette = 3=#d7827e
+palette = 4=#907aa9
+palette = 5=#ea9d34
+palette = 6=#56949f
+palette = 7=#575279
+palette = 8=#9893a5
+palette = 9=#b4637a
+palette = 10=#286983
+palette = 11=#d7827e
+palette = 12=#907aa9
+palette = 13=#ea9d34
+palette = 14=#56949f
+palette = 15=#cecacd
+background = faf4ed
+foreground = 575279
+cursor-color = 575279 
+selection-background = f2e9de
+selection-foreground = 575279

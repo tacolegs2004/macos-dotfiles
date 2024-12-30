@@ -1,0 +1,26 @@
+# Scheme System: base24
+# Scheme Name: Flat
+# Scheme Author: FredHappyface (https://github.com/fredHappyface)
+# Template Author: Bez Hermoso
+
+palette = 0=#082845
+palette = 1=#a82320
+palette = 2=#2d9440
+palette = 3=#3c7dd2
+palette = 4=#3167ac
+palette = 5=#781aa0
+palette = 6=#2c9370
+palette = 7=#8c939a
+palette = 8=#444e5b
+palette = 9=#a82320
+palette = 10=#2d9440
+palette = 11=#3c7dd2
+palette = 12=#3167ac
+palette = 13=#781aa0
+palette = 14=#2c9370
+palette = 15=#e7eced
+background = 082845
+foreground = 8c939a
+cursor-color = 8c939a 
+selection-background = 2e2e45
+selection-foreground = 8c939a

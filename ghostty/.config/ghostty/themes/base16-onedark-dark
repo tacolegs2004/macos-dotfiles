@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: OneDark Dark
+# Scheme Author: olimorris (https://github.com/olimorris)
+# Template Author: Bez Hermoso
+
+palette = 0=#000000
+palette = 1=#ef596f
+palette = 2=#89ca78
+palette = 3=#e5c07b
+palette = 4=#61afef
+palette = 5=#d55fde
+palette = 6=#2bbac5
+palette = 7=#abb2bf
+palette = 8=#434852
+palette = 9=#ef596f
+palette = 10=#89ca78
+palette = 11=#e5c07b
+palette = 12=#61afef
+palette = 13=#d55fde
+palette = 14=#2bbac5
+palette = 15=#c8ccd4
+background = 000000
+foreground = abb2bf
+cursor-color = abb2bf 
+selection-background = 2c313a
+selection-foreground = abb2bf

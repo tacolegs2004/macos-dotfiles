@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Precious Light White
+# Scheme Author: 4lex4 &lt;4lex49@zoho.com&gt;
+# Template Author: Bez Hermoso
+
+palette = 0=#ffffff
+palette = 1=#af4947
+palette = 2=#557301
+palette = 3=#876500
+palette = 4=#186daa
+palette = 5=#7b4ecb
+palette = 6=#087767
+palette = 7=#555555
+palette = 8=#848484
+palette = 9=#af4947
+palette = 10=#557301
+palette = 11=#876500
+palette = 12=#186daa
+palette = 13=#7b4ecb
+palette = 14=#087767
+palette = 15=#555555
+background = ffffff
+foreground = 555555
+cursor-color = 555555 
+selection-background = dbdbdb
+selection-foreground = 555555

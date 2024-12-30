@@ -1,0 +1,26 @@
+# Scheme System: base24
+# Scheme Name: One Black
+# Scheme Author: FredHappyface (https://github.com/fredHappyface)
+# Template Author: Bez Hermoso
+
+palette = 0=#000000
+palette = 1=#e05561
+palette = 2=#8cc265
+palette = 3=#e6b965
+palette = 4=#4aa5f0
+palette = 5=#c162de
+palette = 6=#42b3c2
+palette = 7=#abb2bf
+palette = 8=#545862
+palette = 9=#e05561
+palette = 10=#8cc265
+palette = 11=#e6b965
+palette = 12=#4aa5f0
+palette = 13=#c162de
+palette = 14=#42b3c2
+palette = 15=#ffffff
+background = 000000
+foreground = abb2bf
+cursor-color = abb2bf 
+selection-background = 4f5666
+selection-foreground = abb2bf

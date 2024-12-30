@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Measured Light
+# Scheme Author: Measured (https://measured.co)
+# Template Author: Bez Hermoso
+
+palette = 0=#fdf9f5
+palette = 1=#ac1f35
+palette = 2=#0c680c
+palette = 3=#645a00
+palette = 4=#0158ad
+palette = 5=#6645c2
+palette = 6=#01716f
+palette = 7=#292929
+palette = 8=#5a5a5a
+palette = 9=#ac1f35
+palette = 10=#0c680c
+palette = 11=#645a00
+palette = 12=#0158ad
+palette = 13=#6645c2
+palette = 14=#01716f
+palette = 15=#000000
+background = fdf9f5
+foreground = 292929
+cursor-color = 292929 
+selection-background = ffeada
+selection-foreground = 292929

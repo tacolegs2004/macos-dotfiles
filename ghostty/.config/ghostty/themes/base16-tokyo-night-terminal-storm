@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Tokyo Night Terminal Storm
+# Scheme Author: Michaël Ball
+# Template Author: Bez Hermoso
+
+palette = 0=#24283b
+palette = 1=#f7768e
+palette = 2=#41a6b5
+palette = 3=#e0af68
+palette = 4=#7aa2f7
+palette = 5=#bb9af7
+palette = 6=#7dcfff
+palette = 7=#787c99
+palette = 8=#444b6a
+palette = 9=#f7768e
+palette = 10=#41a6b5
+palette = 11=#e0af68
+palette = 12=#7aa2f7
+palette = 13=#bb9af7
+palette = 14=#7dcfff
+palette = 15=#d5d6db
+background = 24283b
+foreground = 787c99
+cursor-color = 787c99 
+selection-background = 343a52
+selection-foreground = 787c99

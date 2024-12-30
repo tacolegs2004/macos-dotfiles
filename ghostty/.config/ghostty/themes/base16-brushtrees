@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Brush Trees
+# Scheme Author: Abraham White &lt;abelincoln.white@gmail.com&gt;
+# Template Author: Bez Hermoso
+
+palette = 0=#e3efef
+palette = 1=#b38686
+palette = 2=#87b386
+palette = 3=#aab386
+palette = 4=#868cb3
+palette = 5=#b386b2
+palette = 6=#86b3b3
+palette = 7=#6d828e
+palette = 8=#98afb5
+palette = 9=#b38686
+palette = 10=#87b386
+palette = 11=#aab386
+palette = 12=#868cb3
+palette = 13=#b386b2
+palette = 14=#86b3b3
+palette = 15=#485867
+background = e3efef
+foreground = 6d828e
+cursor-color = 6d828e 
+selection-background = b0c5c8
+selection-foreground = 6d828e

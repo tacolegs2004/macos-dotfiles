@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Google Dark
+# Scheme Author: Seth Wright (http://sethawright.com)
+# Template Author: Bez Hermoso
+
+palette = 0=#1d1f21
+palette = 1=#cc342b
+palette = 2=#198844
+palette = 3=#fba922
+palette = 4=#3971ed
+palette = 5=#a36ac7
+palette = 6=#3971ed
+palette = 7=#c5c8c6
+palette = 8=#969896
+palette = 9=#cc342b
+palette = 10=#198844
+palette = 11=#fba922
+palette = 12=#3971ed
+palette = 13=#a36ac7
+palette = 14=#3971ed
+palette = 15=#ffffff
+background = 1d1f21
+foreground = c5c8c6
+cursor-color = c5c8c6 
+selection-background = 373b41
+selection-foreground = c5c8c6

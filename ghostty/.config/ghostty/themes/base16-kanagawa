@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Kanagawa
+# Scheme Author: Tommaso Laurenzi (https://github.com/rebelot)
+# Template Author: Bez Hermoso
+
+palette = 0=#1f1f28
+palette = 1=#c34043
+palette = 2=#76946a
+palette = 3=#c0a36e
+palette = 4=#7e9cd8
+palette = 5=#957fb8
+palette = 6=#6a9589
+palette = 7=#dcd7ba
+palette = 8=#54546d
+palette = 9=#c34043
+palette = 10=#76946a
+palette = 11=#c0a36e
+palette = 12=#7e9cd8
+palette = 13=#957fb8
+palette = 14=#6a9589
+palette = 15=#717c7c
+background = 1f1f28
+foreground = dcd7ba
+cursor-color = dcd7ba 
+selection-background = 223249
+selection-foreground = dcd7ba

@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: ShadeSmear Dark
+# Scheme Author: Kyle Giammarco (http://kyle.giammar.co)
+# Template Author: Bez Hermoso
+
+palette = 0=#232323
+palette = 1=#cc5450
+palette = 2=#71983b
+palette = 3=#307878
+palette = 4=#376388
+palette = 5=#d7ab54
+palette = 6=#c57d42
+palette = 7=#dbdbdb
+palette = 8=#c0c0c0
+palette = 9=#cc5450
+palette = 10=#71983b
+palette = 11=#307878
+palette = 12=#376388
+palette = 13=#d7ab54
+palette = 14=#c57d42
+palette = 15=#1c1c1c
+background = 232323
+foreground = dbdbdb
+cursor-color = dbdbdb 
+selection-background = 4e4e4e
+selection-foreground = dbdbdb

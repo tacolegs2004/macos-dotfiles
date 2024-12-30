@@ -1,0 +1,26 @@
+# Scheme System: base24
+# Scheme Name: One Light
+# Scheme Author: FredHappyface (https://github.com/fredHappyface)
+# Template Author: Bez Hermoso
+
+palette = 0=#e7e7e9
+palette = 1=#ca1243
+palette = 2=#50a14f
+palette = 3=#febb2a
+palette = 4=#4078f2
+palette = 5=#a626a4
+palette = 6=#0184bc
+palette = 7=#383a42
+palette = 8=#a0a1a7
+palette = 9=#ca1243
+palette = 10=#50a14f
+palette = 11=#febb2a
+palette = 12=#4078f2
+palette = 13=#a626a4
+palette = 14=#0184bc
+palette = 15=#090a0b
+background = e7e7e9
+foreground = 383a42
+cursor-color = 383a42 
+selection-background = cacace
+selection-foreground = 383a42

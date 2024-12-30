@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Atelier Seaside
+# Scheme Author: Bram de Haan (http://atelierbramdehaan.nl)
+# Template Author: Bez Hermoso
+
+palette = 0=#131513
+palette = 1=#e6193c
+palette = 2=#29a329
+palette = 3=#98981b
+palette = 4=#3d62f5
+palette = 5=#ad2bee
+palette = 6=#1999b3
+palette = 7=#8ca68c
+palette = 8=#687d68
+palette = 9=#e6193c
+palette = 10=#29a329
+palette = 11=#98981b
+palette = 12=#3d62f5
+palette = 13=#ad2bee
+palette = 14=#1999b3
+palette = 15=#f4fbf4
+background = 131513
+foreground = 8ca68c
+cursor-color = 8ca68c 
+selection-background = 5e6e5e
+selection-foreground = 8ca68c

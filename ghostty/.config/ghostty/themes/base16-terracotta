@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Terracotta
+# Scheme Author: Alexander Rossell Hayes (https://github.com/rossellhayes)
+# Template Author: Bez Hermoso
+
+palette = 0=#efeae8
+palette = 1=#a75045
+palette = 2=#7a894a
+palette = 3=#ce943e
+palette = 4=#625574
+palette = 5=#8d5968
+palette = 6=#847f9e
+palette = 7=#473731
+palette = 8=#c0aca4
+palette = 9=#a75045
+palette = 10=#7a894a
+palette = 11=#ce943e
+palette = 12=#625574
+palette = 13=#8d5968
+palette = 14=#847f9e
+palette = 15=#241c19
+background = efeae8
+foreground = 473731
+cursor-color = 473731 
+selection-background = d0c1bb
+selection-foreground = 473731

@@ -1,0 +1,26 @@
+# Scheme System: base16
+# Scheme Name: Material Vivid
+# Scheme Author: joshyrobot
+# Template Author: Bez Hermoso
+
+palette = 0=#202124
+palette = 1=#f44336
+palette = 2=#00e676
+palette = 3=#ffeb3b
+palette = 4=#2196f3
+palette = 5=#673ab7
+palette = 6=#00bcd4
+palette = 7=#80868b
+palette = 8=#44464d
+palette = 9=#f44336
+palette = 10=#00e676
+palette = 11=#ffeb3b
+palette = 12=#2196f3
+palette = 13=#673ab7
+palette = 14=#00bcd4
+palette = 15=#ffffff
+background = 202124
+foreground = 80868b
+cursor-color = 80868b 
+selection-background = 323639
+selection-foreground = 80868b
