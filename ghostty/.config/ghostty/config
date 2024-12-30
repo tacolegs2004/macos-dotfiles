@@ -8,3 +8,5 @@ font-size = 16
 background-opacity = 0.95
 window-padding-x = 10
 window-padding-y = 10
+# For Nuphy keyboard
+keybind = super+r=reload_config

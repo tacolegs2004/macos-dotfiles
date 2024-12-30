@@ -19,14 +19,14 @@
 #
 # # import = [
 # # "~/.config/alacritty/base16-dark.toml",
-# # "~/.config/alacritty/keybindings.toml",
 # # ]
 #
 # import = []
 
 general.import = [
-  "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
+ "~/github/dotfiles/alacritty/.config/alacritty/themes/catppuccin-mocha.toml"
 ]
+
 #
  general.live_config_reload = true
 # # Live config reload (changes require restart)
