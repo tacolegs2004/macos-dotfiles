@@ -1,2 +1,17 @@
 theme = catppuccin-mocha
+
 keybind = super+r=reload_config
+
+# splits
+keybind = cmd+a>\=new_split:right
+keybind = cmd+a>-=new_split:down
+keybind = cmd+s>j=goto_split:bottom
+keybind = cmd+s>k=goto_split:top
+keybind = cmd+s>h=goto_split:left
+keybind = cmd+s>l=goto_split:right
+
+keybind = cmd+s>z=toggle_split_zoom
+
+keybind = cmd+s>e=equalize_splits
+keybind = cmd+s>i=inspector:toggle
+
