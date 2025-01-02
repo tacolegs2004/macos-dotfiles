@@ -1,12 +1,2 @@
 theme = catppuccin-mocha
-font-family = CaskaydiaCove Nerd Font
-cursor-style = block
-cursor-style-blink = false
-shell-integration-features = no-cursor
-macos-titlebar-style = hidden
-font-size = 16
-background-opacity = 0.95
-window-padding-x = 10
-window-padding-y = 10
-# For Nuphy keyboard
 keybind = super+r=reload_config
