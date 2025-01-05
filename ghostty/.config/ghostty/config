@@ -1,6 +1,12 @@
-theme = catppuccin-mocha
+# theme = Eldritch
 
-font-size = 18
+theme = poimandres
+
+cursor-style = block
+
+shell-integration-features = no-cursor
+
+cursor-style-blink = false
 
 mouse-hide-while-typing = true
 
@@ -8,7 +14,11 @@ keybind = super+r=reload_config
 
 # splits
 
-keybind = alt+a=new_split:down
+
+keybind = alt+shift+k=new_split:up
+keybind = alt+shift+j=new_split:down
+keybind = alt+shift+h=new_split:left
+keybind = alt+shift+l=new_split:right
 keybind = opt+j=goto_split:bottom
 keybind = opt+k=goto_split:top
 keybind = opt+h=goto_split:left
