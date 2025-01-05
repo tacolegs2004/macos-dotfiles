@@ -1,6 +1,32 @@
-# theme = Eldritch
+theme = catppuccin-mocha
 
-theme = poimandres
+font-family = CaskaydiaCove Nerd Font Mono
+
+font-size = 20
+
+font-thicken = true
+
+adjust-underline-position = 40%
+
+adjust-underline-thickness = -60%
+
+cursor-style = block
+
+cursor-style-blink = false
+
+mouse-hide-while-typing = true
+
+window-width = 54
+
+window-height = 14
+
+window-padding-x = 20
+
+confirm-close-surface = false
+
+clipboard-paste-protection = false
+
+macos-titlebar-style=tabs
 
 cursor-style = block
 
@@ -16,16 +42,26 @@ keybind = super+r=reload_config
 
 
 keybind = alt+shift+k=new_split:up
+
 keybind = alt+shift+j=new_split:down
+
 keybind = alt+shift+h=new_split:left
+
 keybind = alt+shift+l=new_split:right
+
 keybind = opt+j=goto_split:bottom
+
 keybind = opt+k=goto_split:top
+
 keybind = opt+h=goto_split:left
+
 keybind = opt+l=goto_split:right
 
 keybind = super+z=toggle_split_zoom
 
 keybind = super+e=equalize_splits
+
 keybind = super+i=inspector:toggle
+
 keybind = super+x=close_surface
+

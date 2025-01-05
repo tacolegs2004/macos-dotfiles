@@ -207,3 +207,5 @@ export PATH=$PATH:$HOME/go/bin
 
 alias ls="eza --icons=always"
 
+# precmd() { mommy -1 -s $? }
+
