@@ -175,7 +175,6 @@ general.import = [
 # dynamic_title = true 
 # decorations_theme_variant = "None"
 decorations = "Full"
-opacity = 0.8
 # opacity = 0.9
 # blur = true 
 
