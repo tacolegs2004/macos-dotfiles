@@ -1,11 +1,13 @@
 theme = dark:base16-catppuccin-mocha,light:base16-catppuccin-frappe
 font-family = CaskaydiaCove Nerd Font
-font-feature = -liga
+font-feature = -calt
 font-size = 20
 background-opacity = 0.85
-background-blur-radius = 40
+background-blur-radius = 10
 unfocused-split-opacity = 0.85
-macos-titlebar-style=tabs
+mouse-hide-while-typing = true
+window-decoration = true
+macos-titlebar-style=hidden
 keybind = super+r=reload_config
 # splits
 keybind = alt+j=goto_split:bottom
