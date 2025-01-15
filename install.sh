@@ -5,19 +5,13 @@ if [ ! -d "$HOME/code/projects" ]; then
   mkdir -p $HOME/code/projects
 fi
 
-# run prepare scripts, if any inside packages
-for f in */prepare.sh; do
-	$f
-done
-
 # stow packages
-stow -v kitty
-stow -v ghostty
-stow -v git
-stow -v nvim
-stow -v starship
-stow -v tmux
-stow -v zsh
+stow --target=$HOME kitty
+stow --target=$HOME ghostty
+stow --target=$HOME nvim
+stow --target=$HOME starship
+stow --target=$HOME tmux
+stow --target=$HOME zsh
 
 # run install scripts, if any inside packages
 # for f in */install.sh; do
