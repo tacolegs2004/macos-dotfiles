@@ -176,7 +176,7 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/Users/tacolegs2004/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/Users/tacolegs2004/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 
 # eval "$(oh-my-posh init zsh)"
 #
@@ -196,3 +196,5 @@ alias ls="eza --icons=always"
 
 # precmd() { mommy -1 -s $? }
 
+source /Users/tyler/code/projects/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

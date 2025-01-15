@@ -1,10 +1,11 @@
 # theme = dark:base16-catppuccin-mocha,light:base16-catppuccin-frappe
-theme = catppuccin-mocha
+# theme = catppuccin-mocha
+theme = Playground
 font-family = CaskaydiaCove Nerd Font
 font-feature = -calt
 font-size = 20
 background-opacity = 0.85
-background-blur-radius = 10
+background-blur-radius = 20
 unfocused-split-opacity = 0.85
 mouse-hide-while-typing = true
 window-decoration = true
