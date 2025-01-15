@@ -1,0 +1,24 @@
+# theme = dark:base16-catppuccin-mocha,light:base16-catppuccin-frappe
+theme = catppuccin-mocha
+font-family = CaskaydiaCove Nerd Font
+font-feature = -calt
+font-size = 20
+background-opacity = 0.85
+background-blur-radius = 10
+unfocused-split-opacity = 0.85
+mouse-hide-while-typing = true
+window-decoration = true
+macos-titlebar-style=hidden
+keybind = super+r=reload_config
+# splits
+keybind = alt+j=goto_split:bottom
+keybind = alt+k=goto_split:top
+keybind = alt+h=goto_split:left
+keybind = alt+l=goto_split:right
+keybind = alt+shift+k=new_split:up
+keybind = alt+shift+j=new_split:down
+keybind = alt+shift+h=new_split:left
+keybind = alt+shift+l=new_split:right
+keybind = super+z=toggle_split_zoom
+keybind = super+e=equalize_splits
+keybind = super+x=close_surface

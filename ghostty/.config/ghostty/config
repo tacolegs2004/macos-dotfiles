@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # theme = dark:base16-catppuccin-mocha,light:base16-catppuccin-frappe
 # theme = catppuccin-mocha
 theme = Playground
@@ -23,3 +24,24 @@ keybind = alt+shift+l=new_split:right
 keybind = super+z=toggle_split_zoom
 keybind = super+e=equalize_splits
 keybind = super+x=close_surface
+=======
+# # = The default theme, uses all default settings from kitty
+# ## = Use it to easily restore defaults.
+# Unmapped settings = 
+# confirm_os_window_close = 0
+# dynamic_background_opacity = 1
+# enable_audio_bell = no
+# include = current-theme.conf
+# linux_display_server = auto
+# wheel_scroll_min_lines = 1
+# window_padding_width = 4
+theme = catppuccin-mocha
+background-opacity = 0.7
+font-family = Fira Code SemiBold
+font-family-bold = auto
+font-family-bold-italic = auto
+font-family-italic = auto
+font-size = 16.0
+scrollback-limit = 2000
+window-decoration = false
+>>>>>>> refs/remotes/origin/main
