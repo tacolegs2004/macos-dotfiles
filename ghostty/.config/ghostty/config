@@ -1,28 +1,11 @@
-theme = catppuccin-mocha
-window-decoration = false
+theme = iTerm2 Dark Background
 font-family = CaskaydiaCove Nerd Font
 font-feature = -calt
 font-size = 20
-background-opacity = 0.7
-macos-titlebar-style=hidden
+auto-update-channel = tip
 window-padding-y = 14
 window-padding-x = 16
-font-family = Fira Code SemiBold
-font-family-bold = auto
-font-family-bold-italic = auto
-font-family-italic = auto
-font-size = 16.0
-scrollback-limit = 2000
 keybind = super+r=reload_config
-# splits
-keybind = alt+j=goto_split:bottom
-keybind = alt+k=goto_split:top
-keybind = alt+h=goto_split:left
-keybind = alt+l=goto_split:right
-keybind = alt+shift+k=new_split:up
-keybind = alt+shift+j=new_split:down
-keybind = alt+shift+h=new_split:left
-keybind = alt+shift+l=new_split:right
 keybind = super+z=toggle_split_zoom
 keybind = super+e=equalize_splits
 keybind = super+x=close_surface
