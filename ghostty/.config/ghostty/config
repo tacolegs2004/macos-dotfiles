@@ -1,4 +1,4 @@
-theme = iTerm2 Dark Background
+theme = catppuccin-mocha
 font-family = CaskaydiaCove Nerd Font
 font-feature = -calt
 font-size = 20
