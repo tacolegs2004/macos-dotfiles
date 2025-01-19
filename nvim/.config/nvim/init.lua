@@ -177,10 +177,10 @@ vim.keymap.set("i", "jk", "<Esc>")
 vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 
 -- TIP: Disable arrow keys in normal mode
-vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
-vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
-vim.keymap.set('n', '<up>', '<cmd>echo "Use k to move!!"<CR>')
-vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
+vim.keymap.set("n", "<left>", '<cmd>echo "Use h to move!!"<CR>')
+vim.keymap.set("n", "<right>", '<cmd>echo "Use l to move!!"<CR>')
+vim.keymap.set("n", "<up>", '<cmd>echo "Use k to move!!"<CR>')
+vim.keymap.set("n", "<down>", '<cmd>echo "Use j to move!!"<CR>')
 
 -- Keybinds to make split navigation easier.
 --  Use CTRL+<hjkl> to switch between windows
@@ -233,6 +233,12 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 	-- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
 	"tpope/vim-sleuth", -- Detect tabstop and shiftwidth automatically
+	{
+		"williamboman/mason.nvim",
+		config = function()
+			require("mason").setup()
+		end,
+	},
 
 	-- NOTE: Plugins can also be added by using a table,
 	-- with the first argument being the link and the following
@@ -392,7 +398,7 @@ require("lazy").setup({
 			vim.keymap.set("n", "<leader>fd", builtin.diagnostics, { desc = "[S]earch [D]iagnostics" })
 			vim.keymap.set("n", "<leader>fr", builtin.resume, { desc = "[S]earch [R]esume" })
 			vim.keymap.set("n", "<leader>f.", builtin.oldfiles, { desc = '[S]earch Recent Files ("." for repeat)' })
-		vim.keymap.set("n", "<leader><leader>", builtin.buffers, { desc = "[ ] Find existing buffers" })
+			vim.keymap.set("n", "<leader><leader>", builtin.buffers, { desc = "[ ] Find existing buffers" })
 
 			-- Slightly advanced example of overriding default behavior and theme
 			vim.keymap.set("n", "<leader>/", function()
@@ -453,7 +459,7 @@ require("lazy").setup({
 			})
 		end,
 	},
-  
+
 	{
 		"saghen/blink.cmp",
 		-- optional: provides snippets for the snippet source
@@ -490,31 +496,30 @@ require("lazy").setup({
 			sources = {
 				default = { "lsp", "path", "snippets", "buffer" },
 			},
-		opts_extend = { "sources.default" },
+			opts_extend = { "sources.default" },
+		},
 	},
-},
 	{ "Bilal2453/luvit-meta", lazy = true },
-{
-  'neovim/nvim-lspconfig',
-  dependencies = { 'saghen/blink.cmp' },
+	{
+		"neovim/nvim-lspconfig",
+		dependencies = { "saghen/blink.cmp" },
 
-  -- example using `opts` for defining servers
-  opts = {
-    servers = {
-      lua_ls = {}
-    }
-  },
-  config = function(_, opts)
-    local lspconfig = require('lspconfig')
-    for server, config in pairs(opts.servers) do
-      -- passing config.capabilities to blink.cmp merges with the capabilities in your
-      -- `opts[server].capabilities, if you've defined it
-      config.capabilities = require('blink.cmp').get_lsp_capabilities(config.capabilities)
-      lspconfig[server].setup(config)
-    end
-  end
-
-},
+		-- example using `opts` for defining servers
+		opts = {
+			servers = {
+				lua_ls = {},
+			},
+		},
+		config = function(_, opts)
+			local lspconfig = require("lspconfig")
+			for server, config in pairs(opts.servers) do
+				-- passing config.capabilities to blink.cmp merges with the capabilities in your
+				-- `opts[server].capabilities, if you've defined it
+				config.capabilities = require("blink.cmp").get_lsp_capabilities(config.capabilities)
+				lspconfig[server].setup(config)
+			end
+		end,
+	},
 
 	{ -- Autoformat
 		"stevearc/conform.nvim",
@@ -694,10 +699,10 @@ require("lazy").setup({
 			-- Load the colorscheme here.
 			-- Like many other themes, this one has different styles, and you could load
 			-- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-			-- vim.cmd.colorscheme("tokyonight-night")
+			vim.cmd.colorscheme("tokyonight-night")
 
 			-- You can configure highlights by doing something like:
-			-- vim.cmd.hi("Comment gui=none")
+			vim.cmd.hi("Comment gui=none")
 		end,
 	},
 
@@ -710,7 +715,7 @@ require("lazy").setup({
 				transparent_background = true,
 			})
 
-			vim.cmd("colorscheme catppuccin-mocha")
+			-- vim.cmd("colorscheme catppuccin-mocha")
 		end,
 	},
 
@@ -741,13 +746,13 @@ require("lazy").setup({
 	{ -- Collection of various small independent plugins/modules
 		"echasnovski/mini.nvim",
 		config = function()
-      require('mini.ai').setup()
-      require('mini.surround').setup()
-      require('mini.operators').setup()
-      require('mini.pairs').setup()
-      require('mini.bracketed').setup()
-      require('mini.files').setup()
-    end,
+			require("mini.ai").setup()
+			require("mini.surround").setup()
+			require("mini.operators").setup()
+			-- require('mini.pairs').setup()
+			require("mini.bracketed").setup()
+			require("mini.files").setup()
+		end,
 	},
 	{
 		"lewis6991/gitsigns.nvim",
