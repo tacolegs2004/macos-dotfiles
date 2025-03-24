@@ -1,10 +1,13 @@
 theme = catppuccin-mocha
 font-family = CaskaydiaCove Nerd Font
 font-feature = -calt
-font-size = 20
-auto-update-channel = tip
+maximize=true
+mouse-hide-while-typing=true
 window-padding-y = 14
 window-padding-x = 16
+shell-integration-features=no-cursor
+cursor-style=block
+cursor-style-blink=false
 keybind = super+r=reload_config
 keybind = super+z=toggle_split_zoom
 keybind = super+e=equalize_splits

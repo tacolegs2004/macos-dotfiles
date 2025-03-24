@@ -34,8 +34,7 @@ eval $(thefuck --alias fk)
 
 PATH="$PATH":"$HOME/.local/scripts/"
 
-bindkey -s ^a "nvims\n"
-bindkey -s ^f "tmux-sessionizer\n"
+bindkey -s ^a run-shell "~/.local/scripts/tmux-sessionizer ~/code/projects"
 # bindkey -r r run-shell "~/.local/scripts/tmux-sessionizer ~/code/projects"
 
 # Path to your oh-my-zsh installation.
@@ -104,8 +103,8 @@ export PATH="$HOME/.local/bin":$PATH
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  zsh-autosuggestions
-  zsh-syntax-highlighting
+  # zsh-autosuggestions
+  # zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
