@@ -11,4 +11,3 @@ cursor-style-blink=false
 keybind = super+r=reload_config
 keybind = super+z=toggle_split_zoom
 keybind = super+e=equalize_splits
-keybind = super+x=close_surface
