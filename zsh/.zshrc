@@ -7,18 +7,16 @@ alias lg=lazygit
 alias c=code
 alias py=python3
 alias v=nvim
-alias lazy="NVIM_APPNAME=LazyVim nvim"
-alias bean="NVIM_APPNAME=neobean nvim"
-alias kick="NVIM_APPNAME=kickstart nvim"
-alias chad="NVIM_APPNAME=NvChad nvim"
-alias astro="NVIM_APPNAME=AstroNvim nvim"
-alias ovi="NVIM_APPNAME=OviWrite nvim"
 alias icat="kitten icat"
 
 eval $(thefuck --alias)
 eval $(thefuck --alias fk)
 
 PATH="$PATH":"$HOME/.local/scripts/"
+export HOME=/Users/tyler
+export ZDOTDIR=$HOME/.zshrc
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+
 
 bindkey -s ^a tmux-sessionizer
 # Path to your oh-my-zsh installation.
@@ -33,9 +31,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 source <(fzf --zsh)
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # pnpm
 export PNPM_HOME="/Users/tacolegs2004/Library/pnpm"
@@ -74,6 +69,7 @@ export PATH="/Users/tacolegs2004/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/Users/tacolegs2004/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 
 eval "$(zoxide init --cmd cd zsh)"
+# eval "$(zoxide init zsh)"
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"

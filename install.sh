@@ -13,7 +13,9 @@ stow --target=$HOME starship
 stow --target=$HOME tmux
 stow --target=$HOME zsh
 
+source ~/.zshrc
+
 # run install scripts, if any inside packages
 # for f in */install.sh; do
 # 	$f
-# done
+# donerr
