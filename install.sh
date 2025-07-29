@@ -6,10 +6,8 @@ if [ ! -d "$HOME/code/projects" ]; then
 fi
 
 # stow packages
-stow --target=$HOME kitty
 stow --target=$HOME ghostty
 stow --target=$HOME nvim
-stow --target=$HOME starship
 stow --target=$HOME tmux
 stow --target=$HOME zsh
 
