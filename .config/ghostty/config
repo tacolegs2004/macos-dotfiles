@@ -1,0 +1,7 @@
+theme=catppuccin-mocha
+# font-family=CaskaydiaCove Nerd Font
+font-feature=-calt
+shell-integration-features=no-cursor
+cursor-style=block
+auto-update-channel=tip
+# custom-shader=shaders/cursor-smear.glsl
