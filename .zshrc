@@ -13,6 +13,8 @@ eval $(thefuck --alias)
 eval $(thefuck --alias fk)
 
 PATH="$PATH":"$HOME/.local/scripts/"
+PS1="%{$fg[magenta]%}%~%{$fg[red]%} %{$reset_color%}$%b "
+export PATH="/Users/sylvanfranklin/.local/share/bob/nvim-bin/:$PATH"
 export HOME=/Users/tyler
 export ZDOTDIR=$HOME/.zshrc
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
