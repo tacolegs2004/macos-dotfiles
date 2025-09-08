@@ -8,16 +8,18 @@ alias c=code
 alias py=python3
 alias v=nvim
 alias icat="kitten icat"
+alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
 
 eval $(thefuck --alias)
 eval $(thefuck --alias fk)
 
 PATH="$PATH":"$HOME/.local/scripts/"
-PS1="%{$fg[magenta]%}%~%{$fg[red]%} %{$reset_color%}$%b "
 export PATH="/Users/sylvanfranklin/.local/share/bob/nvim-bin/:$PATH"
+export HOME=/Users/tyler
 export HOME=/Users/tyler
 export ZDOTDIR=$HOME/.zshrc
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+export PATH="${HOME}/.cargo/bin:${PATH}"
 
 
 bindkey -s ^a tmux-sessionizer
@@ -49,7 +51,7 @@ esac
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-function yy() {
+function y() {
   local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
   yazi "$@" --cwd-file="$tmp"
   if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
@@ -64,7 +66,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # CodeWhisperer post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.post.zsh"
-
 
 
 export PATH="/Users/tacolegs2004/.config/herd-lite/bin:$PATH"
@@ -83,3 +84,4 @@ alias ls="eza --icons=always"
 
 source /Users/tyler/code/projects/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# eval "$(starship init zsh)"
