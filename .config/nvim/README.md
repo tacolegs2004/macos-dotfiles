@@ -1,3 +1,4 @@
-## -Taco.Nvim-
+# 💤 LazyVim
 
-The Department of Neovim Configuration Efficiency has decided that [kickstart.taco](https://github.com/tacolegs2004/kickstart.taco) is bloated and is in desperate need of restructuring. Thus, we have decided to completely overhaul it and keep it contained to **one file**, inspired (and stolen) by [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim). 
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.

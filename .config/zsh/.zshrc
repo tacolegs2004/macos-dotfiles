@@ -1,4 +1,4 @@
-ZSH_THEME="robbyrussell"
+ZSH_THEME="random"
 
 export TERM=xterm
 export EDITOR=nvim
@@ -9,6 +9,9 @@ alias py=python3
 alias v=nvim
 alias icat="kitten icat"
 alias neobean='NVIM_APPNAME=linkarzu/dotfiles-latest/neovim/neobean nvim'
+alias man="batman"
+alias grep="batgrep"
+alias diff="batdiff"
 
 eval $(thefuck --alias)
 eval $(thefuck --alias fk)
