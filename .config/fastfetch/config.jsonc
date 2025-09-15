@@ -20,11 +20,6 @@
             "keyColor": "31",  // = color1
         },
         {
-            "type": "kernel",
-            "key": "KER ",
-            "keyColor": "32",
-        },
-        {
             "type": "packages",
             "format": "{} (homebrew)",
             "key": "PKG ",
@@ -39,11 +34,6 @@
             "type": "terminal",
             "key": "TER ",
             "keyColor": "35", 
-        },
-        {
-            "type": "wm",
-            "key": "WM  ",
-            "keyColor": "36", 
         },
         "break",
     ]
