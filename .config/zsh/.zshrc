@@ -1,11 +1,9 @@
-# # ZSH_THEME="random
-# PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
-#
-export TERM=xterm
+ZSH_THEME="robbyrussell"
+export TERM=xterm-256color
 export EDITOR=nvim
 
 alias lg=lazygit
-alias c=code
+alias c=codium
 alias py=python3
 alias v=nvim
 alias icat="kitten icat"
@@ -22,7 +20,7 @@ alias gi='git init'
 alias gl='git log'
 alias gp='git push origin HEAD'
 alias gr='git rev-parse --show-toplevel' # git root
-alias gs='git status'
+alias gst='git status'
 alias gt='git tag'
 alias gu='git pull' # gu = git update
 
@@ -33,13 +31,13 @@ PATH="$PATH":"$HOME/.local/scripts/"
 export PATH="/Users/sylvanfranklin/.local/share/bob/nvim-bin/:$PATH"
 export HOME=/Users/tyler
 export HOME=/Users/tyler
-export ZDOTDIR=$HOME/.zshrc
+export ZDOTDIR=$HOME/.config/zsh/.zshrc
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 export PATH="${HOME}/.cargo/bin:${PATH}"
 
 
 bindkey -s ^a tmux-sessionizer
-# Path to your oh-my-zsh installation.
+# Path to your oh-my-zsh installation
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$HOME/.local/bin":$PATH
 
@@ -51,6 +49,9 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 source <(fzf --zsh)
+
+NEWLINE=$'\n'
+# PROMPT="${NEWLINE}% $(date +%_I:%M%P) %F{#b4befe} %n %K{#1e1e2e}%F{#cba6f7}%} %~ ❯ " # nord theme
 
 # pnpm
 export PNPM_HOME="/Users/tacolegs2004/Library/pnpm"
@@ -89,6 +90,11 @@ export PHP_INI_SCAN_DIR="/Users/tacolegs2004/.config/herd-lite/bin:$PHP_INI_SCAN
 
 eval "$(zoxide init --cmd cd zsh)"
 
+
+# in practice, in your shell startup script
+export TERM="xterm-256color"
+# or fish equivalent ...
+
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 export PATH=$PATH:$HOME/go/bin
@@ -97,6 +103,7 @@ alias ls="eza --icons=always"
 
 # precmd() { mommy -1 -s $? }
 
-source /Users/tyler/p/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /Users/tyler/dev/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
+fortune | ponysay

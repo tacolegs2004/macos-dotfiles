@@ -110,7 +110,6 @@ _comps=(
 'add-zsh-hook' '_add-zsh-hook'
 'admin' '_sccs'
 'aerospace' '_aerospace'
-'alacritty' '_alacritty'
 'ali' '_mh'
 'alias' '_alias'
 'amaya' '_webbrowser'
@@ -1850,7 +1849,7 @@ bindkey '^[,' _history-complete-newer
 bindkey '^[/' _history-complete-older
 bindkey '^[~' _bash_complete-word
 
-autoload -Uz _aerospace _alacritty _bat _bob _brew \
+autoload -Uz _aerospace _bat _bob _brew \
             _eza _fastfetch _fd _gh _git \
             _luarocks _mpv _pnpm _poetry _rg \
             _starship _ya _yazi _yt-dlp _zoxide \
